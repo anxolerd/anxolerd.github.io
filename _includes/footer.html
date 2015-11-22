@@ -1,0 +1,40 @@
+<footer class="mdl-mini-footer">
+  {% if page.url == '/index.html' %}
+  <a
+    id="rss-subscribe"
+    class="mdlmdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"
+    href="{{ "/feed.xml" | prepend: site.baseurl }}">
+  </a>
+  {% endif %}
+  <div class="mdl-mini-footer--left-section">
+    {% if site.twitter_username %}
+    <a href="https://twitter.com/{{ site.twitter_username }}">
+      <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
+        <span class="visuallyhidden">Twitter</span>
+      </button>
+    </a>
+    {% endif %}
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}">
+      <button class="mdl-mini-footer--social-btn social-btn social-btn__github">
+        <span class="visuallyhidden">Github</span>
+      </button>
+    </a>
+    {% endif %}
+    {% if site.facebook_username %}
+    <a href="https://facebook.com/{{ site.github_username }}">
+      <button class="mdl-mini-footer--social-btn social-btn social-btn__facebook">
+        <span class="visuallyhidden">Github</span>
+      </button>
+    </a>
+    {% endif %}
+  </div>
+  <div class="mdl-mini-footer--right-section">
+    {% if site.email %}
+    <a href="mailto:{{ site.email }}" class="mdl-mini-footer--social-btn social-btn__email">
+      <i class="material-icons" role="presentation">email</i>
+      <span class="visuallyhidden">email</span>
+    </a>
+    {% endif %}
+  </div>
+</footer>
