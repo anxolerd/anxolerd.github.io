@@ -5,3 +5,5 @@ _site
 # Intellij
 .idea/
 *.iml
+
+Gemfile.lock
