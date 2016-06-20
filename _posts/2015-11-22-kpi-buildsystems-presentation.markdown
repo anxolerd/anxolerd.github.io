@@ -4,7 +4,6 @@ title:  "Buildsystems presentation"
 date:   2015-11-22 04:45:05
 categories: dev
 author: anxolerd
-image: '/images/posts/kpi-buildsystems-presentation/cover.png'
 ---
 
 ### Why do we need buildsystems?

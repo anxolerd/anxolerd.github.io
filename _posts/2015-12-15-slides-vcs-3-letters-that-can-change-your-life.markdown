@@ -4,7 +4,6 @@ title:  "VCS. Three letters that can change your life"
 date:   2015-12-15 00:23:05
 categories: dev
 author: anxolerd
-image: '/public/images/posts/slides-vcs-3-letters-that-can-change-your-life/cover.png'
 ---
 
 It is difficult to imagine a modern developer who knows nothing about version control systems or does not use them. There are a lot of articles all over the Internet about VCS and this one is not better than the others.
