@@ -1,44 +1,15 @@
 ---
 layout: default
 ---
-<div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__media mdl-color-text--grey-50" {% if page.image %}style="background-image: url('{{ page.image }}')"{% endif %}>
-    <h3>{{ page.title }}</h3>
-  </div>
-  <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-    <div class="minilogo" {% if page.author %}>{% else %}style="background-image: none;">U{% endif %}</div>
-    <div>
-      <strong>{% if page.author %}{{ page.author }}{% else %}Unknown{% endif %}</strong>
-      <span>{{ page.date | date: "%b %-d, %Y" }}</span>
-      {% if page.meta %}{{ page.meta }}{% endif %}
-    </div>
-    <div class="section-spacer"></div>
-  </div>
-  <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-</div>
 
-<nav class="demo-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-  {% if page.next.url %}
-  <a href="{{page.next.url}}" class="demo-nav__button">
-    <button
-      class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900"
-      role="presentation">
-      <i class="material-icons">arrow_back</i>
-    </button>
-    Newer
-  </a>
-  {% endif %}
-  <div class="section-spacer"></div>
-  {% if page.previous.url %}
-  <a href="{{page.previous.url}}" class="demo-nav__button">
-    Older
-    <button
-      class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900"
-      role="presentation">
-      <i class="material-icons">arrow_forward</i>
-    </button>
-  </a>
-  {% endif %}
-</nav>
+</article>

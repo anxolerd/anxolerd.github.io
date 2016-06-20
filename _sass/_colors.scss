@@ -1,0 +1,14 @@
+/* Define colors */
+
+$color-bg-dark:     #2C3E50;
+$color-bg-light:    #ECF0F1;
+$color-brand-light: #3498DB;
+$color-brand-dark:  #2980B9;
+$color-accent:      #E74C3C;
+
+$color-text-dark:   #212121;
+$color-text-light:  $color-bg-light;
+
+$color-grey:        #828282;
+$color-grey-dark:   darken($color-grey, 25%);
+$color-grey-light:  lighten($color-grey, 40%);

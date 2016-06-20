@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-<body>
-<div class="mdl-layout__container">
-  <div class="demo-blog {% if page.url != '/index.html' %}demo-blog--blogpost{% endif %} mdl-layout mdl-js-layout has-drawer is-upgraded">
-    <main class="mdl-layout__content">
-      {% if page.url != '/index.html' %}{% include header.html %}{% endif %}
-      <div class="demo-blog__posts mdl-grid">
-        {{ content }}
-      </div>
-      {% include footer.html %}
+
+  {% include head.html %}
+
+  <body>
+
+    {% include site-nav.html %}
+
+    <main class="page-content">
+      {{ content }}
     </main>
-    <div class="mdl-layout__obfuscator"></div>
-  </div>
-</div>
-<script src="/js/material.min.js"></script>
-</body>
+
+    {% include footer.html %}
+
+  </body>
 
 </html>

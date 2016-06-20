@@ -2,22 +2,22 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-<div class="mdl-card mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__media mdl-color-text--grey-50" {% if post.image %}style="background-image: url('{{ post.image }}');"{% endif %}>
-    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <div class="post-list">
+    {% for post in site.posts %}
+      <div>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p>{{ post.content | strip_html | truncatewords: 64 }}</p>
+      </div>
+    {% endfor %}
   </div>
-  <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
-    {{ post.content | strip_html | truncatewords:64}}
-  </div>
-  <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-    <div class="minilogo" {% if post.author %}>{% else %}style="background-image: none;">U{% endif %}</div>
-    <div>
-      <strong>{{ post.author }}</strong>
-      <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-    </div>
-    <div class="section-spacer"></div>
-    <a href="{{ post.url | prepend: site.baseurl }}" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent">Read more</a>
-  </div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 </div>
-{% endfor %}

@@ -1,0 +1,21 @@
+<aside class="site-menu">
+
+  <div class="site-branding">
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <p class="site-headline">{{ site.headline | escape }}</p>
+  </div>
+
+  <nav class="site-nav">
+    <span class="menu-title">Pages</span>
+    {% for page in site.pages %}
+      {% if page.title %}
+      <a class="nav-link" 
+         href="{{ page.url | prepend: site.baseurl }}" >
+        {{ page.title }}
+      </a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+
+</aside>
