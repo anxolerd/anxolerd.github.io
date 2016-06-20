@@ -1,206 +1,145 @@
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-/**
- * Basic styling
- */
-body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
-}
-
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
+/* Reset styles */
+html, body, 
 h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+div, span, p,
+main, nav, a,
+blockquote, pre,
+article, aside,
+ol, ul, figure {
+  margin: 0;
+  padding: 0;
 }
 
-
-
-/**
- * Images
- */
-img {
-    max-width: 100%;
-    vertical-align: middle;
+/* Set up fonts */
+body {
+  background-color: $color-bg-light;
+  color: $color-text-dark;
+  font-family: Monoid, Roboto, sans-serif;
 }
 
+/* Mobile-first */
+.site-menu {
+  background-color: $color-bg-dark;
+  color: $color-text-light;
+  padding: 8px 0;
+  position: relative;
+  width: 100%;
 
-
-/**
- * Figures
- */
-figure > img {
+  .site-branding {
     display: block;
-}
+    text-align: center;
 
-figcaption {
-    font-size: $small-font-size;
-}
-
-
-
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-}
-
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
-}
-
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
-}
-
-
-
-/**
- * Links
- */
-a {
-    color: $brand-color;
-    text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
+    .site-title {
+      color: $color-text-light;
+      font-size: 2em;
+      text-decoration: none;
     }
 
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
+    .site-headline {
+      display: none;
     }
-}
+  }
 
+  .site-nav {
+    display: block;
+    font-size: 1.1em;
+    margin: 50px auto 0px;
+    letter-spacing: 4px;
+    text-align: center;
 
-
-/**
- * Blockquotes
- */
-blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
-
-    > :last-child {
-        margin-bottom: 0;
+    .menu-title {
+      display: block;
+      text-transform: uppercase;
+      text-decoration: underline;
     }
-}
 
+    .nav-link {
+      color: $color-text-light;
+      display: block;
+      line-height: 2.4em;
+      text-decoration: none;
+      vertical-align: bottom;
 
-
-/**
- * Code formatting
- */
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: auto;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
+      &:active {
+        background-color: lighten($color-bg-dark, 4%);
+      }
     }
+  }
 }
 
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
+.page-content {
+  display: block;
+  font-size: 0.8em;
+  margin-bottom: 36px;
+  margin-top: 36px;
+  padding: 0px 16px;
 }
 
+.site-footer {
+  border-top: 1px solid $color-grey;
+  padding: 16px;
+  text-align: center;
 
+  .footer-col {
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
 
-/**
- * Clearfix
- */
-%clearfix {
+  .contact-list, .social-media-list {
+    list-style: none;
 
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
+    li a {
+        line-height: 2em;
+        span {
+          display: inline-block;
+          height: 2em;
+          vertical-align: middle;
         }
     }
+
+    .icon svg {
+      width: 1.8em;
+    }
+  }
+}
+
+/* Tablet and desktop */
+@media (screen and min-width: 768px) {
+  .site-menu {
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 250px;
+  }
+
+  .page-content, .site-footer {
+    margin-left: 250px;
+  }
+}
+
+
+@media (screen and min-width: 1024px) {
+  .site-menu {
+    width: 300px;
+  }
+
+ .page-content, .site-footer {
+    margin-left: 300px;
+  }
+
+  .page-content {
+    padding: 32px 64px;
+  }
+  .footer-col {
+    width: 32%;
+  }
+  .footer-col-1, .footer-col-2 {
+    float:left;
+  }
+
+  .footer-col-3 {
+    float: right;
+  }
 }
