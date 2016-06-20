@@ -209,10 +209,10 @@ You can check out this awesome [video tutorial][youtube-tutorial] about setting 
 ![final.jpg][final.jpg]{: .responsive-image}
 
 
-[profit.png]: /images/posts/kpi-buildsystems-presentation/profit.png
+[profit.png]: /public/images/posts/kpi-buildsystems-presentation/profit.png
 [demo-gh]: https://github.com/anxolerd/kpi-buildsystems-demo
 [globs]: https://github.com/isaacs/node-glob#glob-primer
 [stylus]: https://learnboost.github.io/stylus/
 [slides]: http://anxolerd.github.io/kpi-slides-buildsystems
 [youtube-tutorial]: https://goo.gl/7KN5gP
-[final.jpg]: /images/posts/kpi-buildsystems-presentation/final.jpg
+[final.jpg]: /public/images/posts/kpi-buildsystems-presentation/final.jpg

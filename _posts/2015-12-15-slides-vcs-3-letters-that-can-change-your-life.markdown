@@ -4,7 +4,7 @@ title:  "VCS. Three letters that can change your life"
 date:   2015-12-15 00:23:05
 categories: dev
 author: anxolerd
-image: '/images/posts/slides-vcs-3-letters-that-can-change-your-life/cover.png'
+image: '/public/images/posts/slides-vcs-3-letters-that-can-change-your-life/cover.png'
 ---
 
 It is difficult to imagine a modern developer who knows nothing about version control systems or does not use them. There are a lot of articles all over the Internet about VCS and this one is not better than the others.
@@ -124,13 +124,13 @@ Of course, the main source of knowledge is the official [git][git-scm] documenta
 There is also a good [tutorial][atlassian-tutorial] provided by _Atlassian_. And just in case if you messed your repository, you can find the rescue recipe in [this article][git-fix-all].
 
 
-[undo.gif]: /images/posts/slides-vcs-3-letters-that-can-change-your-life/undo.gif
-[stone-age.jpg]: /images/posts/slides-vcs-3-letters-that-can-change-your-life/stone-age.jpg
-[cvcs-workflow.png]: /images/posts/slides-vcs-3-letters-that-can-change-your-life/cvcs-workflow.png
-[dvcs-workflow.png]: /images/posts/slides-vcs-3-letters-that-can-change-your-life/dvcs-workflow.png
-[subversion_logo.png]: /images/posts/slides-vcs-3-letters-that-can-change-your-life/subversion_logo.png
-[mercurial_logo.png]: /images/posts/slides-vcs-3-letters-that-can-change-your-life/mercurial_logo.png
-[git_logo.png]: /images/posts/slides-vcs-3-letters-that-can-change-your-life/git_logo.png
+[undo.gif]: /public/images/posts/slides-vcs-3-letters-that-can-change-your-life/undo.gif
+[stone-age.jpg]: /public/images/posts/slides-vcs-3-letters-that-can-change-your-life/stone-age.jpg
+[cvcs-workflow.png]: /public/images/posts/slides-vcs-3-letters-that-can-change-your-life/cvcs-workflow.png
+[dvcs-workflow.png]: /public/images/posts/slides-vcs-3-letters-that-can-change-your-life/dvcs-workflow.png
+[subversion_logo.png]: /public/images/posts/slides-vcs-3-letters-that-can-change-your-life/subversion_logo.png
+[mercurial_logo.png]: /public/images/posts/slides-vcs-3-letters-that-can-change-your-life/mercurial_logo.png
+[git_logo.png]: /public/images/posts/slides-vcs-3-letters-that-can-change-your-life/git_logo.png
 
 [wikipedia]: https://en.wikipedia.org/wiki/Version_control
 [git-scm-about-vcs]: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
