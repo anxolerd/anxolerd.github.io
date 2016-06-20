@@ -22,7 +22,6 @@ body {
   background-color: $color-bg-dark;
   color: $color-text-light;
   padding: 8px 0;
-  margin-bottom: 20px;
   position: relative;
   width: 100%;
 
@@ -44,7 +43,7 @@ body {
   .site-nav {
     display: block;
     font-size: 1.1em;
-    margin: 50px auto 10px;
+    margin: 50px auto 0px;
     letter-spacing: 4px;
     text-align: center;
 
@@ -71,9 +70,40 @@ body {
 .page-content {
   display: block;
   font-size: 0.8em;
+  margin-bottom: 36px;
+  margin-top: 36px;
   padding: 0px 16px;
 }
 
+.site-footer {
+  border-top: 1px solid $color-grey;
+  padding: 16px;
+  text-align: center;
+
+  .footer-col {
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
+
+  .contact-list, .social-media-list {
+    list-style: none;
+
+    li a {
+        line-height: 2em;
+        span {
+          display: inline-block;
+          height: 2em;
+          vertical-align: middle;
+        }
+    }
+
+    .icon svg {
+      width: 1.8em;
+    }
+  }
+}
+
+/* Tablet and desktop */
 @media (screen and min-width: 768px) {
   .site-menu {
     bottom: 0;
@@ -84,7 +114,7 @@ body {
     width: 250px;
   }
 
-  .page-content, .footer {
+  .page-content, .site-footer {
     margin-left: 250px;
   }
 }
@@ -95,11 +125,21 @@ body {
     width: 300px;
   }
 
- .page-content, .footer {
+ .page-content, .site-footer {
     margin-left: 300px;
   }
 
   .page-content {
     padding: 32px 64px;
+  }
+  .footer-col {
+    width: 32%;
+  }
+  .footer-col-1, .footer-col-2 {
+    float:left;
+  }
+
+  .footer-col-3 {
+    float: right;
   }
 }
