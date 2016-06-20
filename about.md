@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, I'm Oleksandr, a.k.a @anxolerd. 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm a student and a development enthusiast. I love making presentations and finding magical code. My interests include Python, SQL data retrival, security.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+In general I believe that building better apps will make this world a little bit better, that is why I try do build them. 
+
+I'd really appreciate any comments about this blog, cause I'm not good at writing posts and developing design and frontend layout.
