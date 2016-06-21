@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Redesign and some personal stuff"
-date:   2016-06-21 00:24:00
+date:   2016-06-21 00:24:00 +0200
 categories: jekyll update
 ---
 
