@@ -23,7 +23,7 @@ After we were done with list of questions and ideas we had only two days to impl
 
 And here is the exam. We were so excited to present our creation to other students. It was a quest. Students had to solve quizzes and do practical tasks to find keys to the next stages of our simple quest. We used Cisco's Packet Tracer as quest environment because that was the software we used during the course.
 
-![student-topology][student-topology]{: .responsive-image}
+![student-topology][student-topology]
 
 Our quest consisted of two topologies in Packet Tracer and the instruction which was given as *.pdf file. Students had access only to one topology and the instruction. The other topology was unaccessible to them. To complete the quest they had to recall a bunch of theory from our course as well as to do some things they used to do as assignments during the whole course. These things included:
 
@@ -62,7 +62,7 @@ All the respondents liked the quest and we are really happy about that.
 
 We asked students to grade the quest overall complexity from 1 (extremely easy) to 7 (extremely difficult). 
 
-![complexity-chart][complexity-chart]{: .responsive-image}
+![complexity-chart][complexity-chart]
 
 According to feedback we received, quest had exactly perfect complexity while being a little bit difficult for some students.
 
@@ -72,13 +72,13 @@ Some tasks like _configure DHCP_ seemed too easy for most of respondents. Some t
 
 Most of students found the quest pretty interesting and engaging. (0 -- not interestng, 7 -- very interesting).
 
-![engagement-chart][engagement-chart]{: .responsive-image}
+![engagement-chart][engagement-chart]
 
 While being one of the most difficult tasks, configuring the dynamic routing was also one of the most interesting. The other interesting task was to recieve an email with the instructions. Students had to configure a network (use correct IP addresses, range, mask, default gateway) and answer some questions to get the correct configuration parameters for email client.
 
 ### Issues
 
-![issues-chart][issues-chart]{: .responsive-image}
+![issues-chart][issues-chart]
 
 _here blue part is the part which encountered issues during the quest and the red part is those who did not_
 

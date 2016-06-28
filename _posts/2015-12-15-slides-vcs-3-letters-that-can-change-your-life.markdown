@@ -22,11 +22,11 @@ Indeed, version control systems simplify software development. It often happens 
 But why do not you rely on VCS for that? It stores all your history and you can easily control changes done by someone. Moreover, there are commands which allows to undo specific set of changes! It is just useful when you work on project alone and 
 extremely needed when you work on team.
 
-![undo.gif][undo.gif]{: .responsive-image}
+![undo.gif][undo.gif]
 
 By the way, how do you share code when work in the team? If you do that using flash drives o email attachments, I have a pretty bad news for you. Doing that is like using stone instruments in the 21st century...
 
-![stone-age.jpg][stone-age.jpg]{: .responsive-image}
+![stone-age.jpg][stone-age.jpg]
 
 
 ### Bunch of theory.
@@ -44,7 +44,7 @@ There are two classes of such systems:
 
 #### Centralized Version Control Systems
 
-![cvcs-workflow.png][cvcs-workflow.png]{: .responsive-image}
+![cvcs-workflow.png][cvcs-workflow.png]
 
 These were the first ones. The idea of CVCS is that there is a single `"central"` repository somewhere (typically on the server) and everyone commits their changes to it. Committing a change mean recording the change in the system. Other contributors can see this change. 
 Typical workflow with centralized systems is described here:
@@ -58,7 +58,7 @@ Pretty straightforward, isn't it?
 #### Distributed Version Control Systems
 Unlike CVCS, where only one repository exists, the idea of distributed Version Control Systems is that there are many copies of the repository. Every single developer has his own copy and works with it. That means, everybody who has a copy of repository also has a whole editing history, not only the latest revision.
  
-![dvcs-workflow.png][dvcs-workflow.png]{: .responsive-image}
+![dvcs-workflow.png][dvcs-workflow.png]
 
 In general distributed VCS are better than centralized ones.
 
@@ -72,17 +72,17 @@ In general distributed VCS are better than centralized ones.
 #### There are three most popular VCS now:
 
 ##### Subversion
-![subversion_logo.png][subversion_logo.png]{: .responsive-image}
+![subversion_logo.png][subversion_logo.png]
 
 Centralized version control system. It is used in a lot of big projects, which were started, when there were no DVCS. Subversion is developed by _Apache Software Foundation_
 
 ##### Mercurial
-![mercurial_logo.png][mercurial_logo.png]{: .responsive-image}
+![mercurial_logo.png][mercurial_logo.png]
 
 Mercurial is a cross-platform, distributed revision control tool for software developers. It is mainly implemented using the Python programming language, but includes a binary diff implementation written in C
 
 #### Git
-![git_logo.png][git_logo.png]{: .responsive-image}
+![git_logo.png][git_logo.png]
 
 Git is a widely used version control system for software development. It is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows. Git was initially designed and developed by _Linus Torvalds_ for Linux kernel development in 2005.
 

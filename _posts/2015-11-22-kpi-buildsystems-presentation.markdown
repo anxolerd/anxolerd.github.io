@@ -16,7 +16,7 @@ Here is were _buildsystems_ come to the rescue
 
 __Buildsystem__ is a _collection of tasks_ that automate repetitive work. In other words buildsystems are software tools designed to automate the process of program compilation.
 
-![profit.png][profit.png]{: .responsive-image}
+![profit.png][profit.png]
 
 In two words buildsystems do a lot of things that simplify the developer's life. But first developer have to setup build system before enjoying simple life :)
 
@@ -205,7 +205,7 @@ gulp.task('default', ['scripts', 'styles', 'watch']);
 We have followed the process of setting up gulp buildsystem. Of course there are still a lot of things to improve in our build system like stopping watch task as build fails or optimizing images... You can find some of that steps done in [demo repository][demo-gh]. Also check my [slides][slides] for cute pony pictures.
 You can check out this awesome [video tutorial][youtube-tutorial] about setting up gulp.
  
-![final.jpg][final.jpg]{: .responsive-image}
+![final.jpg][final.jpg]
 
 
 [profit.png]: /public/images/posts/kpi-buildsystems-presentation/profit.png
