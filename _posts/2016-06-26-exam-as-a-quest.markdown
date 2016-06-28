@@ -7,17 +7,17 @@ published: false
 tags: kpi, education, personal
 ---
 
-## Preambula 
+## Preamble 
 
-Exams are over and now I have some free time to write to my blog. This year at university my friends and me had a networks course which was partially based on [Cisco's CCNA][cisco-ccna] course. That was pretty interesting course and we learned a lot of interestings there. The most amazing thing was our teacher who really wanted us to learn something, not just complete the course. We could answer questions for half an hour until we finally started to understand what we are trying to do. And that was really inspiring and motivating.
+Exams are over and now I have some free time to write to my blog. This year at university my friends and me had a networks course which was partially based on [Cisco's CCNA][cisco-ccna] course. That was pretty interesting course and we learned a lot of interesting things there. The most amazing thing was our teacher who really wanted us to learn something, not just complete the course. We could answer questions for half an hour until we finally started to understand what we are trying to do. And that was really inspiring and motivating.
 
 But the most interesting part was the exam for this course. Teacher asked some of my friends and me to help him with exam preparations because he wanted it to be something more interesting and useful than a bunch of standard questions.
 
 ## So here we started.
 
-We had really little time to create a great idea and implement it. There was some hackathon spirit in this. We spent two days just gathering the ideas and exploring possibilities of their implementation. After that we met and tried to combine all the ideas together as well as reject extremely difficult ones. We've generated about 40 questions and ideas and rejectedabout half of them. We did our bests to find the balance between complexity, engagement and possibility to solve the questions. Of course, if we had a little more time, we could find even better solutions than we did, but in my opinion we did it even better than we expected.
+We had really little time to create a great idea and implement it. There was some hackathon spirit in this. We spent two days just gathering the ideas and exploring possibilities of their implementation. After that we met and tried to combine all the ideas together as well as reject extremely difficult ones. We've generated about 40 questions and ideas and rejected about half of them. We did our bests to find the balance between complexity, engagement and possibility to solve the questions. Of course, if we had a little more time, we could find even better solutions than we did, but in my opinion we did it even better than we expected.
 
-After we were done with list of questions and ideas we had only two days to implement and test them. Actually we had only two evenings and two mornings to do that all becasue we all have a job to do at the daylight. So we were in rush. In the last evening before deadline (the exam) we sat till 11 p.m. trying to find and fix bugs we did during creating and implementing tasks.
+After we were done with list of questions and ideas we had only two days to implement and test them. Actually we had only two evenings and two mornings to do that all because we all have a job to do at the daylight. So we were in rush. In the last evening before deadline (the exam) we sat till 11 p.m. trying to find and fix bugs we did during creating and implementing tasks.
 
 ## The curtain falls 
 

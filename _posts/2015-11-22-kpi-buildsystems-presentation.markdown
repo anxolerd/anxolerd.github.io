@@ -29,7 +29,7 @@ What is `gulp`? Gulp is a streaming build system written in javascript. The main
 cat input | transformation_1 | transformation_2 > output
 {% endhighlight %}
 
-First of all we have to setup gulp. Gulp must be installed both _globally_ in your system and locally as _devDependency_ of your preoject.
+First of all we have to setup gulp. Gulp must be installed both _globally_ in your system and locally as _devDependency_ of your project.
 
 {% highlight sh %}
 root@machine npm install -g gulp
@@ -49,7 +49,7 @@ gulp.task('my-first-task', [], function() {
 Here ___my-first-task___ is the name of your task, empty array means that your task has no dependencies. And when you will run this task the function's body will be executed.
 You can run it by typing **`gulp my-first-task`** in your console. 
 
-Tasks can depend on other tasks. To do that just add the name of the dependency into the array paramether of dependent task. Like that:
+Tasks can depend on other tasks. To do that just add the name of the dependency into the array parameter of dependent task. Like that:
 {% highlight js %}
 var gulp = require('gulp');
 
@@ -72,7 +72,7 @@ gulp.task('default', [], function() {
 });
 {% endhighlight %}
 
-Well, we have learnt some basics. Let do some real job. We have the following project structure:
+Well, we have learned some basics. Let do some real job. We have the following project structure:
 
 {% highlight sh %}
 user@machine tree project
@@ -158,7 +158,7 @@ gulp.task('scripts', [], function(){
 });
 {% endhighlight %}
 
-During development process we often need to rebuild ou javascript as we change the source code. It is not convenient to do it manually, so maybe there is gulp plugin for that? The answer is
+During development process we often need to rebuild our javascript as we change the source code. It is not convenient to do it manually, so maybe there is gulp plugin for that? The answer is
 
 > Gulp can do that out of the box. Without any plugins!
 
