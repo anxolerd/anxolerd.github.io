@@ -3,7 +3,6 @@ layout: post
 date: 2016-06-26
 title: "Exam as a quest"
 categories: updates
-published: false
 tags: kpi, education, personal
 ---
 
@@ -30,12 +29,12 @@ Our quest consisted of two topologies in Packet Tracer and the instruction which
 - Knowledge of OSI model layers
 - Knowledge of main protocols used on different layers
 - Configuring (using GUI) DHCP server
-- Configuring (using GUI) dynamic routing (RIP)
+- Configuring (using GUI) dynamic routing. That was RIP because it is the only routing protocol which can be configured in Packet Tracer via GUI.
 - Using some network diagnostics utilities
 - Using some basic applications
 - etc
 
-As I wrote student had access to one of the topologies. They had really **full** access to it, wo it was a challenge for us to prepare tasks there. We used some static webpages on HTTP servers which used some simple `JavaScript` code to hide/show the key for the next step. We had to encrypt keys there to avoid students just look into the page source to proceed. We used a [viginere cipher][viginere-cipher] for that. _I really enjoyed the moment when one of student tried to look for answer in the sources but found an encrypted string there. He said very loudly something like:_
+As I wrote student had access to one of the topologies. They had really **full** access to it, so it was a challenge for us to prepare tasks there. We used some static webpages on HTTP servers which used some simple `JavaScript` code to hide/show the key for the next step. We had to encrypt keys there to avoid students just look into the page source to proceed. We used a [viginere cipher][viginere-cipher] for that. _I really enjoyed the moment when one of student tried to look for answer in the sources but found an encrypted string there. He said very loudly something like:_
 
 > "Oh you are tricky guys!"
 
@@ -94,7 +93,7 @@ And two guys proposed to add some tasks in command line. _Hey, guys, if you read
 
 ## Conclusion
 
-So it was a great experience with making the exam interesting. Students liked it and it was great. We got some feedback and we know how to prepare even better quest if it will be needed. Special thanks to our theacherfor such experience and to [@LdmlD][gh-ldmld] and [@ttatus][gh-ttatus] for great quizzes and testing. And of course huge thanks to students who did this quest on exam =)
+So it was a great experience with making the exam interesting. Students liked it and it was great. We got some feedback and we know how to prepare even better quest if it will be needed. Special thanks to our theacher for such experience and to [@LdmlD][gh-ldmld] and [@ttatus][gh-ttatus] for great quizzes and testing. And of course huge thanks to students who did this quest on exam =)
 
 
 [cisco-ccna]: https://www.netacad.com/courses/ccna/
