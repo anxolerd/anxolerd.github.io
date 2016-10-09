@@ -13,7 +13,7 @@ Secondly, do not even try to prepare the idea. Come to the competition bare-mind
 
 After that spend about 6 hours to arguing about technology stack and roles. After you came to some agreement, forget about it and let anyone do everything he wants.
 
-By the way, never explore the capabilities of the technologies. NEVER! I'll explain that later.
+By the way, never explore the capabilities of technologies. NEVER! I'll explain that later.
 
 Did I mention about not scaffolding your project before the hackathon? It is so interesting to spend next 6 hours searching and setting up a template project for choosen technology stack.
 
