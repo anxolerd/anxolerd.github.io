@@ -5,7 +5,7 @@ date: 2016-10-09 12:43:03 +0300
 categories: personal hackathon
 ---
 
-Hi, this weekend my friends and me took part in [Media Hack Weekend][mhw] hackathon. And we ... Failed. Here I'd like to provide a few advices on how to achieve such glorious result.
+Hi, this weekend my friends and I took part in [Media Hack Weekend][mhw] hackathon. And we ... Failed. Here I'd like to provide a few advices on how to achieve such glorious result.
 
 First of all do not prepare yourself. Gather the team right before the hackathon: you will 100% find all guys you need. Especially the UI/UX specialist.
 
