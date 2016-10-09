@@ -15,7 +15,7 @@ After that spend about 6 hours to arguing about technology stack and roles. Afte
 
 By the way, never explore the capabilities of the technologies. NEVER! I'll explain that later.
 
-Did I mention about not scaffolding your project before the hackathon? It is so interesting to spend next 6 hours searching and setting up a template project for choosen technology stack.
+Did I mention about not scaffolding your project before the hackathon? It is so interesting to spend next 6 hours searching and setting up a template project for chosen technology stack.
 
 Hey, here you have something up and running. What to do next? Start one more argue about correct architecture, CI. Then spend time on integrating some codestyle checks, noone will pay attention at.
 
