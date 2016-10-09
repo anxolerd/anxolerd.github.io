@@ -11,7 +11,7 @@ First of all do not prepare yourself. Gather the team right before the hackathon
 
 Secondly, do not even try to prepare the idea. Come to the competition bare-minded, find out the idea 5 min before your pitch and make slides from random pics. Do not forget to include totally unrelated cat pictures in your slides.
 
-After that spend about 6 hours to arguing about technology stack and roles. After you came to some agreement, forget about it and let anyone do everything he wants.
+After that spend about 6 hours to arguing about technology stack and roles. After you came to some agreement, forget about it and let anyone do everything he/she wants.
 
 By the way, never explore the capabilities of the technologies. NEVER! I'll explain that later.
 
