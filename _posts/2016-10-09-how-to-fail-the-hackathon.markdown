@@ -11,7 +11,7 @@ First of all do not prepare yourself. Gather the team right before the hackathon
 
 Secondly, do not even try to prepare the idea. Come to the competition bare-minded, find out the idea 5 min before your pitch and make slides from random pics. Do not forget to include totally unrelated cat pictures in your slides.
 
-After that spend about 6 hours arguing about technology stack and roles. After you came to some agreement, forget about it and let anyone do everything he/she wants.
+After that spend about 6 hours to arguing about technology stack and roles. After you came to some agreement, forget about it and let anyone do everything he/she wants.
 
 By the way, never explore the capabilities of technologies. NEVER! I'll explain that later.
 
@@ -21,7 +21,7 @@ Hey, here you have something up and running. What to do next? Start one more arg
 
 Do not sleep at all. The more you sleep, the less you code. It does not matter how effective you are. Just do not sleep!
 
-After seeing how ineffective you are, keep going hoping you will overcome this. After finding out your tech stack is uncapable doing what you want do not change it -- you spend so many time on it to throw it away. Even if you did totally nothing useful.
+After seeing how ineffective you are, keep going hoping you will overcome this. After finding out your tech stack is uncapable doing what you want do not change it -- you've spent so many time on it to throw it away. Even if you did totally nothing useful.
 
 When your team does their bests to complete the project, just give up and leave them when they need you the most till the end. Make them feel disastrous and betrayed.
 
