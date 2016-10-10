@@ -21,7 +21,7 @@ Hey, here you have something up and running. What to do next? Start one more arg
 
 Do not sleep at all. The more you sleep, the less you code. It does not matter how effective you are. Just do not sleep!
 
-After seeing how ineffective you are, keep going hoping you will overcome this. After finding out your tech stack is uncapable doing what you want do not change it -- you spend so many time on it to throw it away. Even if you did totally nothing useful.
+After seeing how ineffective you are, keep going hoping you will overcome this. After finding out your tech stack is uncapable doing what you want do not change it -- you spend so much time on it to throw it away. Even if you did totally nothing useful.
 
 When your team does their bests to complete the project, just give up and leave them when they need you the most till the end. Make them feel disastrous and betrayed.
 
