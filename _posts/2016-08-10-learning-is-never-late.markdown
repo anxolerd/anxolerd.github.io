@@ -6,7 +6,7 @@ published: false
 categories: jekyll update
 tags: learning, git
 ---
-On Monday, August 8th I had a talk about Git version control system at [EVO Summer Python Lab'16][evo-summer-python-lab]. The funniest thing was that guys had already developed their projects and used Git at least for a month. I really had no idea what I can tell them. This is why I asked some of my friends to help: I asked they about what would they talk about if they had had such a talk.
+On Monday, August 8th I had a talk about Git version control system at [EVO Summer Python Lab'16][evo-summer-python-lab]. The funniest thing was that guys had already developed their projects and used Git at least for a month. I really had no idea what I can tell them. This is why I asked some of my friends to help: I asked them about what would they talk about if they had had such a talk.
 
 One of my friends I asked for a help was [@rrader][github-rrader]. We had a pretty interesting chatting about different VCSs and their benefits. To my shame I new really a little about it. So this is why I decided to read about what Git does under the hood.
 
